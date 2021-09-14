@@ -1,3 +1,9 @@
+ on:
+  push:
+    branches:
+      - master
+
+ jobs:
   build-docker-image:
     name: Publish to Docker Hub
     runs-on: ubuntu-latest
